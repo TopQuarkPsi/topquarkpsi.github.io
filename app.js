@@ -79,7 +79,7 @@ const regSW = async () => {
       console.log(`Registration failed with error: ${error}`);
     }
   }
-};                                
+}                             
 
 async function onLogin() {
   const eml = document.getElementById("auth-email").value.trim();
