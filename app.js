@@ -1,6 +1,6 @@
-import { SecQ, Person } from "./classes/Person.js";
-import { Todo } from "./classes/Todo.js";
-import { Symptom } from "./classes/Symptom.js";
+import { SecQ, Person } from "./Person.js";
+import { Todo } from "./Todo.js";
+import { Symptom } from "./Symptom.js";
 import {
   addUser,
   getUserByEmail,
