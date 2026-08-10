@@ -77,6 +77,7 @@ const regSW = async () => {
       }
     } catch (error) {
       console.log(`Registration failed with error: ${error}`);
+    }
   }
 };                                
 
