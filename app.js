@@ -74,9 +74,9 @@ const regSW = async () => {
         console.log("Service Worker Installed.");
       } else if (registration.active) {
         console.log("Service Worker Active.");
-      } catch (error) {
-        console.log(`Registration failed with error: ${error}`);
-    }
+      }
+    } catch (error) {
+      console.log(`Registration failed with error: ${error}`);
   }
 };                                
 
