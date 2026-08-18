@@ -1,6 +1,7 @@
 import { SecQ, Person } from "./Person.js";
 import { Todo } from "./Todo.js";
 import { Symptom } from "./Symptom.js";
+import {  } from "./";
 import {
   addUser,
   getUserByEmail,
@@ -30,6 +31,7 @@ function hashPwd(str) {
 
 function render() {
   if (!currentUser) {
+    alert();
     renderAuth();
   } else {
     renderShell();
