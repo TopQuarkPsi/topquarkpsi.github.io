@@ -1,7 +1,7 @@
 import { SecQ, Person } from "./Person.js";
 import { Todo } from "./Todo.js";
 import { Symptom } from "./Symptom.js";
-import {  } from "./";
+import { CACHE_NAME } from "./service-worker.js";
 import {
   addUser,
   getUserByEmail,
@@ -31,7 +31,8 @@ function hashPwd(str) {
 
 function render() {
   if (!currentUser) {
-    alert();
+    var vn = "Version~: " + CACHE_NAME;
+    alert(vn);
     renderAuth();
   } else {
     renderShell();
